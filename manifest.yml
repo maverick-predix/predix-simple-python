@@ -1,0 +1,9 @@
+---
+applications:
+- name: mavs-test-simple-python
+  memory: 512MB
+  #host: cf-python-sample
+  command: python simple-python.py
+  services:
+    - postgres-test-service
+
